@@ -1,0 +1,30 @@
+.cover-container  {
+
+}
+
+.discount-text {
+    color: #FF9900;
+}
+
+.discount-header {
+    color: #1C2B35;
+}
+
+.discount-p {
+    color: #2A414F;
+}
+
+.discoun-section button {
+    background-color: #FF9900;
+}
+
+
+/* ================================ image  */
+
+.image-frame {
+    background-color: #FFE0B3;
+}
+
+.images-class {
+    height: 554px;
+}
