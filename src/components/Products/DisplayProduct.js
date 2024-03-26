@@ -21,7 +21,7 @@ const DisplayProduct = (props) => {
                         </div>
                    
                     </div>
-                    <button onClick={ ()=>{props.addCart(props.product_id)}} 
+                    <button onClick={ ()=>{props.addCart(props)}} 
                         className=" w-full flex justify-center items-center gap-3 rounded-b-md border-t-2 bg-[#FFE0B3] outline-none   py-2 hover:bg-amber-400" >
                             <p>Add Cart</p>
 

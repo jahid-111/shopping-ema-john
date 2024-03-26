@@ -1,4 +1,5 @@
 {
+  "homepage" : "https://jahid-111.github.io/shopping-ema-john",
   "name": "ema-john-tailwind",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d bulid",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
